@@ -1,5 +1,7 @@
+import Gui.GenreForm;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        GenreForm genreForm = new GenreForm();
     }
 }

@@ -82,7 +82,7 @@ public class GenreRepository {
     public static boolean isExist(String name) throws SQLException {
         boolean exist = false;
         try{
-            String sql = "SELECT id FROM categorie WHERE name = ?";
+            String sql = "SELECT id FROM genre WHERE name = ?";
             //Préparation de la requête
             PreparedStatement prepare = connection.prepareStatement(sql);
             //Bind du paramètre name
