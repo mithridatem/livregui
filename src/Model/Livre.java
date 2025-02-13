@@ -3,13 +3,19 @@ package Model;
 import java.util.ArrayList;
 
 public class Livre {
-    //Attributs
+    /*-------------------------------
+                Attributs
+    -------------------------------*/
+
     private Integer id;
     private String titre;
     private String datePublication;
     private ArrayList<Genre> genres;
 
-    //Constructeurs
+    /*-------------------------------
+            Constructeurs
+    -------------------------------*/
+
     public Livre(){}
 
     public Livre(String titre, String datePublication) {
@@ -23,7 +29,10 @@ public class Livre {
         this.datePublication = datePublication;
     }
 
-    //Getters et Setters
+    /*-------------------------------
+            Getters et Setters
+    -------------------------------*/
+
     public Integer getId() {
         return id;
     }
@@ -47,7 +56,11 @@ public class Livre {
     public void setDatePublication(String datePublication) {
         this.datePublication = datePublication;
     }
-    //Accesseurs Jointures livre_genre
+
+    /*-------------------------------
+    Accesseurs Jointures livre_genre
+    -------------------------------*/
+
     public ArrayList<Genre> getGenres() {
         return genres;
     }
@@ -60,7 +73,10 @@ public class Livre {
         this.genres.remove(genre);
     }
 
-    //Méthodes
+    /*-------------------------------
+                Méthodes
+    -------------------------------*/
+
     @Override
     public String toString() {
         return "Livre{" +

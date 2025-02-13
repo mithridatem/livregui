@@ -1,11 +1,17 @@
 package Model;
 
 public class Genre {
-    //Attributs
+    /*-------------------------------
+                Attributs
+    -------------------------------*/
+
     private Integer id;
     private String name;
 
-    //Constructeurs
+    /*-------------------------------
+            Constructeurs
+    -------------------------------*/
+
     public Genre() {
     }
 
@@ -18,7 +24,9 @@ public class Genre {
         this.name = name;
     }
 
-    //Getters et Setters
+    /*-------------------------------
+            Getters et Setters
+    -------------------------------*/
 
     public Integer getId() {
         return id;
@@ -36,7 +44,9 @@ public class Genre {
         this.name = name;
     }
 
-    //Méthodes
+    /*-------------------------------
+                Méthodes
+    -------------------------------*/
 
     @Override
     public String toString() {
