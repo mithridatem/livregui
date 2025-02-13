@@ -1,3 +1,4 @@
+src/Database/Env.*
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
